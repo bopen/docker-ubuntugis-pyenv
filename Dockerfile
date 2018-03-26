@@ -6,9 +6,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python-software-properties \
     software-properties-common \
     && add-apt-repository -s ppa:ubuntugis/ubuntugis-unstable \
-    && apt-get update && apt-get install -y --no-install-recommends \
-        gdal-bin \
-        libgdal-dev \
     && apt-get remove -y \
     python-software-properties \
     software-properties-common \
