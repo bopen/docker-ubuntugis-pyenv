@@ -1,4 +1,4 @@
-FROM bopen/ubuntu-pyenv:latest
+FROM bopen/ubuntu-pyenv:18.04
 
 MAINTAINER Alessandro Amici <a.amici@bopen.eu>
 
